@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="buildresult-trigger:war exploded">
+    <output-path>$PROJECT_DIR$/target/buildresult-trigger-0.18-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="buildresult-trigger/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="buildresult-trigger" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

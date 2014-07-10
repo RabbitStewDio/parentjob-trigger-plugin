@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="buildresult-trigger:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="buildresult-trigger-0.18-SNAPSHOT.war">
+      <element id="artifact" artifact-name="buildresult-trigger:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,15 @@
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+
+    <f:entry field="onlyDirectReferences">
+           <f:checkbox name="onlyDirectReferences"
+                       checked="${instance.onlyDirectReferences}" default="${false}"/>
+           <label class="attach-previous">${%Only check direct references from upstream jobs. If unchecked, all upstream projects will be checked.}</label>
+       </f:entry>
+
+    <f:entry title="${%Schedule}" help="/descriptor/hudson.triggers.TimerTrigger/help/spec">
+        <f:textarea name="cronTabSpec"
+                    checkUrl="'${rootURL}/trigger/TimerTrigger/check?value='+encodeURIComponent(this.value)"
+                    value="${instance.spec}"/>
+    </f:entry>
+
+</j:jelly>
